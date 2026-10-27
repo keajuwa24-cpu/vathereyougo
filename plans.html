@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ef">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <title>Plans · Nivli</title>
+  <link rel="icon" type="image/svg+xml" href="/luma-mark.svg?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/plans.css"><link rel="stylesheet" href="/refresh.css"><link rel="stylesheet" href="/violet-ui.css?v=19">
+  <script src="/plans.js?v=2" defer></script>
+</head>
+<body class="plans-page">
+  <header class="plans-topbar">
+    <a class="brand" href="/" aria-label="Back to Nivli chat">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 10.5c2-2.2 4.4-3.3 7-3.3s5 1.1 7 3.3M6.8 16c2.7-3 5.8-4.5 9.2-4.5s6.5 1.5 9.2 4.5M9 21.5c2-2.2 4.4-3.3 7-3.3s5 1.1 7 3.3"/></svg></span>
+      <span class="brand-name">nivli<span class="brand-period">.</span></span>
+    </a>
+    <div class="plans-top-actions">
+      <a class="back-link" href="/">Back to Nivli <span aria-hidden="true">↗</span></a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme"></button>
+    </div>
+  </header>
+
+  <main class="plans-main">
+    <div class="plans-heading">
+      <p class="eyebrow">A PLAN FOR EVERY WAY YOU BUILD</p>
+      <h1>Choose your <em>space to think.</em></h1>
+      <p>Start free, or pick a plan designed for your work. Pro and Max buttons open PayFast Sandbox for a no-real-money subscription test.</p>
+    </div>
+
+    <div class="checkout-status" id="checkout-status" role="status" aria-live="polite">Sandbox checkout only. Completing a test does not activate paid features.</div>
+
+    <div class="plans-grid">
+      <article class="plan-card">
+        <div class="plan-card-top"><div><p class="plan-kicker">FOR YOUR FIRST IDEAS</p><h2>Free</h2></div><span class="plan-pill">Start here</span></div>
+        <p class="plan-summary">A place to ask, learn, and keep building.</p>
+        <p class="plan-price"><strong>$0</strong><span>/ month</span></p>
+        <p class="plan-model"><span class="plan-model-dot"></span><span><strong>Nollent 4</strong><small>Everyday help</small></span></p>
+        <ul class="plan-features">
+          <li>Chat Mode and Script Mode</li>
+          <li>Chat history for returning to projects</li>
+          <li>Monthly usage limit <span class="to-decide">to be decided</span></li>
+        </ul>
+        <a class="plan-button plan-button-secondary" href="/">Continue with Nivli</a>
+      </article>
+
+      <article class="plan-card plan-card-featured">
+        <div class="plan-card-top"><div><p class="plan-kicker">FOR YOUR NEXT BIG PROJECT</p><h2>Pro</h2></div><span class="plan-pill plan-pill-warm">Individual</span></div>
+        <p class="plan-summary">More room for focused personal work.</p>
+        <p class="plan-price"><strong>$15</strong><span>/ month</span></p>
+        <p class="plan-local-price">Sandbox billing amount: R250/month. The USD equivalent can change with exchange rates.</p>
+        <p class="plan-model"><span class="plan-model-dot plan-model-dot-pending"></span><span><strong>Solen 3.1 + Verya 3.1</strong><small>Planned model choices</small></span></p>
+        <ul class="plan-features">
+          <li>Chat history for continuing projects</li>
+          <li>File and screenshot attachments</li>
+          <li>Higher monthly usage <span class="to-decide">limit to be decided</span></li>
+        </ul>
+        <p class="plan-status">Sandbox test only. Plan access is not activated.</p>
+        <button class="plan-button plan-button-primary" type="button" data-plan-checkout="pro" disabled>Loading sandbox…</button>
+      </article>
+
+      <article class="plan-card">
+        <div class="plan-card-top"><div><p class="plan-kicker">FOR A WHOLE TEAM</p><h2>Max</h2></div><span class="plan-pill">Team</span></div>
+        <p class="plan-summary">One monthly team price for a business.</p>
+        <p class="plan-price"><strong>$150</strong><span>/ month per team</span></p>
+        <p class="plan-local-price">Sandbox billing amount: R2,475/month. The USD equivalent can change with exchange rates.</p>
+        <p class="plan-model"><span class="plan-model-dot plan-model-dot-pending"></span><span><strong>Solen 3.1 + Verya 3.1</strong><small>Same planned models as Pro</small></span></p>
+        <ul class="plan-features">
+          <li>Designed for shared team projects</li>
+          <li>Team workspace features <span class="to-decide">to be decided</span></li>
+          <li>Shared usage rules <span class="to-decide">to be decided</span></li>
+        </ul>
+        <p class="plan-status">Sandbox test only. Team features and plan access are not activated.</p>
+        <button class="plan-button plan-button-secondary" type="button" data-plan-checkout="max" disabled>Loading sandbox…</button>
+      </article>
+    </div>
+
+    <p class="plans-footnote">PayFast Sandbox test subscriptions only; no real payment is made. A return from checkout is not proof of payment, and Nivli plan restrictions remain inactive.</p>
+  </main>
+</body>
+</html>
+
